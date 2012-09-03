@@ -2,7 +2,8 @@
 
   <f:section title="${%Generate Go Configuration}" name="com-tw-go">
     <f:entry>
-        <f:checkbox name="selected" checked="checked" title="${isChecked}"/>
+        <f:label for="generate_go_configuration">Should generate?</f:label>
+        <f:checkbox id="generate_go_configuration" name="selected" checked="checked" title="${isChecked}"/>
     </f:entry>
   </f:section>
 </j:jelly>

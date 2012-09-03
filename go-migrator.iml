@@ -18,13 +18,32 @@
       <excludeFolder url="file://$MODULE_DIR$/target/surefire" />
       <excludeFolder url="file://$MODULE_DIR$/target/surefire-reports" />
       <excludeFolder url="file://$MODULE_DIR$/target/test-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/target/work" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/jdom/jdom/2.0.2/jdom-2.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/junit/junit/3.8/junit-3.8.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -52,6 +71,24 @@
       <library>
         <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/main/ui-samples-plugin/1.451/ui-samples-plugin-1.451.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -124,15 +161,6 @@
       <library>
         <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/org/jenkins-ci/crypto-util/1.1/crypto-util-1.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/1.4/commons-io-1.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -1420,15 +1448,6 @@
       <library>
         <CLASSES>
           <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
